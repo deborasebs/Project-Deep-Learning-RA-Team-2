@@ -1,7 +1,7 @@
 # House-Pricing-BRNN-Team-2-RA-
 
-Repository ini merupakan bagian dari proyek saya dan tim mengenai penerapan Deep Learning dalam kehidupan, yaitu "Prediksi Harga Jual Rumah di Tangerang Selatan pada 01 mei 2023 hingga 19 juni 2023".  
-Dataset berjudul "Housing Price in South Tangerang CIty (Indonesia) yang diperoleh dari https://www.kaggle.com/ . Tetapi, dataset ini merupakan hasil scraping data dari https://www.Rumah.com yang merupakan platform online untuk jual beli properti.
+Repository ini merupakan bagian dari proyek team mengenai penerapan Deep Learning dalam kehidupan, yaitu "Prediksi Harga Jual Rumah di Tangerang Selatan pada 01 mei 2023 hingga 19 juni 2023".  
+Dataset berjudul "Housing Price in South Tangerang City (Indonesia) yang diperoleh dari https://www.kaggle.com/ . Tetapi, dataset ini merupakan hasil scraping data dari https://www.Rumah.com yang merupakan platform online untuk jual beli properti.
 
 Dataset ini  dengan volume 29420 data dan memiliki 7 atribut,  the property's link, location, price, number of bedrooms, number of bathrooms, and floor area.
 Data dapat diakses pada link berikut (https://www.kaggle.com/datasets/gerryzani/housing-price-in-south-tangerang-city-indonesia)
