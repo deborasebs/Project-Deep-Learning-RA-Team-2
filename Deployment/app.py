@@ -9,8 +9,9 @@ def fetch_data():
     df = pd.read_csv('jabodetabek_house_price.csv')
     return df
 
-#load model
-loaded_model = joblib.load('model_final_project', rb)
+# Load model
+model_path = 'Deployment/model_final_project'
+loaded_model = joblib.load(model_path)
 
 #UI
 # Insert a picture using st.image()
