@@ -10,7 +10,7 @@ def fetch_data():
     return df
 
 #load model
-loaded_model = joblib.load('model_final_project')
+loaded_model = joblib.load('model_final_project', rb)
 
 #UI
 # Insert a picture using st.image()
