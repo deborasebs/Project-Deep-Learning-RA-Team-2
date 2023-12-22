@@ -9,16 +9,7 @@ def fetch_data():
     return df
 
 # Load model
-# Dapatkan path lengkap ke file model
-model_path = os.path.join(os.getcwd(), 'Deployment', 'model_final_project')
-
-# Load model
-try:
-    loaded_model = joblib.load(model_path)
-except FileNotFoundError:
-    st.error("File model not found.")
-except Exception as e:
-    st.error(f"Error loading the model: {e}")
+    loaded_model = joblib.load(model_final_project)
 
 #UI
 # Insert a picture using st.image()
