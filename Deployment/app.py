@@ -11,7 +11,7 @@ def fetch_data():
 
 # Load model
 
-loaded_model = joblib.load('Deployment/model_brnn')
+loaded_model = joblib.load('model_brnn')
 
 #UI
 # Insert a picture using st.image()
