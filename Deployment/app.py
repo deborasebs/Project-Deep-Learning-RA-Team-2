@@ -1,7 +1,8 @@
 import streamlit as st
 import pandas as pd
-from sklearn.preprocessing import MultiLabelBinarizer
 import joblib
+import requests
+from io import BytesIO
 
 # Load df
 @st.cache
@@ -9,8 +10,13 @@ def fetch_data():
     df = pd.read_csv('jabodetabek_house_price.csv')
     return df
 
-# Load model
-loaded_model = joblib.load(model_brnn, 'rb')
+# Load model from URL
+model_url = 'https://github.com/deborasebs/Project-Deep-Learning-RA-Team-2/raw/main/Deployment/model_brnn'
+response = requests.get(model_url)
+response.raise_for_status()  # Check if the request was successful
+
+# Load the model from the binary content
+loaded_model = joblib.load(BytesIO(response.content))
 
 #UI
 # Insert a picture using st.image()
