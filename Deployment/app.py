@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 from sklearn.preprocessing import MultiLabelBinarizer
+import joblib
 
 # Load df
 @st.cache
