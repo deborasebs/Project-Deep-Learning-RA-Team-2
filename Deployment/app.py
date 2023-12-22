@@ -10,9 +10,7 @@ def fetch_data():
     return df
 
 # Load model
-
-model_brnn = 'Deployment/model_brnn'
-loaded_model = joblib.load(model_brnn)
+loaded_model = joblib.load('model_brnn')
 
 #UI
 # Insert a picture using st.image()
