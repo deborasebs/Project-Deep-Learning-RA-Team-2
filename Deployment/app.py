@@ -11,11 +11,11 @@ def fetch_data():
 
 # Load model
 
-loaded_model = joblib.load(model_final_project)
+loaded_model = joblib.load('model_final_project')
 
 #UI
 # Insert a picture using st.image()
-st.image("rumah.jpg", use_column_width=True)
+st.image('rumah.jpg', use_column_width=True)
 
 st.title("House Pricing Methode BRNN App")
 st.write("Project Team 2 RA-Sains Data")
