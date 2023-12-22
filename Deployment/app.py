@@ -11,6 +11,7 @@ def fetch_data():
 
 # Load model
 
+model_brnn = 'Deployment/model_brnn'
 loaded_model = joblib.load(model_brnn)
 
 #UI
