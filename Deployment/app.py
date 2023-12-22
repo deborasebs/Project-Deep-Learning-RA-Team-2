@@ -10,7 +10,7 @@ def fetch_data():
     return df
 
 # Load model
-loaded_model = joblib.load('model_brnn')
+loaded_model = joblib.load(https://github.com/deborasebs/Project-Deep-Learning-RA-Team-2/blob/main/Deployment/model_brnn)
 
 #UI
 # Insert a picture using st.image()
